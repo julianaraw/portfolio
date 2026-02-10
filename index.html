@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Ciência e Educação</title>
+  <meta name="description" content="Portfólio acadêmico com experimentos virtuais e espaço para pesquisa em pós-doutorado." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Portfólio Acadêmico</p>
+      <h1>Ciência, Educação e Inovação</h1>
+      <p class="intro">
+        Este espaço reúne meus projetos em simulações educacionais e uma área dedicada às minhas
+        pesquisas de pós-doutorado.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section id="experimentos" class="section">
+      <div class="container">
+        <h2>Experimentos Virtuais</h2>
+        <p class="section-text">
+          Abaixo estão os experimentos interativos já disponíveis neste repositório.
+        </p>
+
+        <ul class="card-grid">
+          <li class="card">
+            <h3>Curvas Características</h3>
+            <p>Visualização interativa para análise de curvas características.</p>
+            <a href="CurvasCarac_4M.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+          <li class="card">
+            <h3>Pêndulo de Torção</h3>
+            <p>Simulação para estudo de movimento oscilatório e torção.</p>
+            <a href="PenduloTorcao_V7_moodle.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+          <li class="card">
+            <h3>Laboratório Visual D3</h3>
+            <p>Exploração visual de conceitos físicos com recursos gráficos.</p>
+            <a href="Lab_ExpVis_D3.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+          <li class="card">
+            <h3>Osciloscópio</h3>
+            <p>Ambiente virtual para observação e análise de sinais.</p>
+            <a href="OsciloscopioM_v11.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+          <li class="card">
+            <h3>Tubo de Raios Catódicos</h3>
+            <p>Simulação de fenômenos em tubo de raios catódicos.</p>
+            <a href="TuboRaioCatoditos_7M.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+          <li class="card">
+            <h3>Laboratório Visual M3</h3>
+            <p>Experiência interativa para apoio ao ensino de Física.</p>
+            <a href="Lab_ExpVis_M3.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+          <li class="card">
+            <h3>Espectroscopia Online</h3>
+            <p>Ferramenta digital para experimentação em espectroscopia.</p>
+            <a href="Espectroscopia_online.html" target="_blank" rel="noopener noreferrer">Abrir experimento</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="pesquisa" class="section alt">
+      <div class="container">
+        <h2>Pesquisa (Pós-Doutorado)</h2>
+        <p class="section-text">
+          Área reservada para publicação de arquivos, artigos, relatórios e materiais técnicos
+          relacionados às minhas atividades de pesquisa.
+        </p>
+
+        <div class="research-box">
+          <h3>Em breve</h3>
+          <p>
+            Você poderá encontrar aqui:
+          </p>
+          <ul>
+            <li>Artigos científicos publicados e em preparação;</li>
+            <li>Relatórios e resultados parciais;</li>
+            <li>Materiais de apoio para ensino e divulgação científica.</li>
+          </ul>
+          <p class="hint">
+            Sugestão: adicione uma pasta <code>pesquisa/</code> neste repositório e inclua links
+            para os documentos nesta seção.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="ano"></span> Portfólio Acadêmico • Ciência & Educação</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
